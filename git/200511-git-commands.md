@@ -49,10 +49,14 @@ git push -u origin [branch name]
 [Team Project]
 
 1. Fork team manager's repo
-2. git clone [my remote repo that forked from mgr's repo]
+2. git clone [my remote repo addr that forked from mgr's repo]
 3. move to cloned repo
 4. git remote add pmorigin [team mgr's repo addr]
-  - in order to pull processing file under team mgr's repo into local branch 
-5. git push origin master
-6. create pull request in my remote repo to team mgr's repo  
-
+  : in order to pull processing file under team mgr's repo into local branch
+5. git remote -v
+  : check remote servers addr 
+6. git pull pmorigin master
+  : pull processing file from team mgr's repo into local master branch 
+7. create pull request in my remote repo to team mgr's repo
+8. git push origin master
+  : push modified file in master branch to the origin server
