@@ -17,7 +17,7 @@ git commit -a
 - commit all files that added with git add / all files that changed since then 
 
 git push origin master
-- send changes to the master branch of remote repository
+- push master branch to origin server
 
 git remote add origin <server>
 - connect your local repository to a remote server
@@ -27,7 +27,7 @@ git remote -v
 - list all currently configured remote repository
 
 git branch 
-- list all the branches in your local repo, and also tell you what branch you're currently in. 
+- list all the branches in your local repo, and also tell you which branch you're currently in. 
 
 git branch -r
 - list all the branches in your remote repo 
