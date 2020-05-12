@@ -56,7 +56,6 @@ git push -u origin [branch name]
 5. git remote -v
   : check remote servers addr 
 6. git pull pmorigin master
-  : pull processing file from team mgr's repo into local master branch 
 7. create pull request in my remote repo to team mgr's repo
 8. git push origin master
   : push modified file in master branch to the origin server
